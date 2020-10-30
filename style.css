@@ -34,7 +34,8 @@ body {
 }
 
 #information h1 {
-    margin: 0px;
+    margin: 10px;
+    font-family: cursive;
 }
 
 #information p{
@@ -53,16 +54,33 @@ body {
     align-items: center;
 }
 
-#validation form {
-    flex-direction: column;
-}
+
 #validation p{
     margin: 10px;
     color: #f5f5dc;
     font-family: cursive;
+    text-align: center;
 }
 
+#cardNumber{
+    width: 200px;
+}
 
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
+#validation input {
+    margin: 10px;
+    padding: 3px 5px;
+    background-color: #f5f5dc;
+    font-family: cursive;
+    color: #062222;
+    text-align: center;
+    border-radius: 5px;
+
+}
 
 
